@@ -1,0 +1,25 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class MyProblems{
+    public static void main(String[]args){
+        
+        String name;
+        int age;
+        
+        Scanner xua = new Scanner(System.in);
+        
+        System.out.printf("Type your age here: ");
+        
+        age = xua.nextInt();
+        
+        xua.nextLine();
+        
+        
+        System.out.printf("Type your name here: ");
+        name = xua.nextLine();
+        
+        System.out.printf("\n=RESULTS=\n");
+        System.out.printf("%s is %d years old!!", name,age);
+    }
+}
